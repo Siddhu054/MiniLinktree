@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseURL = https://minilink1.onrender.com/ || 'http://localhost:8080';
+const baseURL = import.meta.env.VITE_API_URL || 'http://localhost:8080';
 
 // Create axios instance with base URL
 const api = axios.create({
